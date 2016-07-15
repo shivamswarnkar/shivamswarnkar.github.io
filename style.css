@@ -28,18 +28,26 @@ a{
 	color: white;
 }
 
-#resume{
+.space{
+	margin: 2%;
 	font-size: 1.5em;
 	min-height: 30px;
-	min-width: 300px;
+	width: 41%;
 	background-color: white;
 	color:black;
 	font-style: italic;
+	float: left;
 
 }
 #resume:hover{
 	background-color: red;
 	font-weight: bold;
+	color:white;
+}
+
+#links:hover{
+	background-color: blue;
+	color:white;
 }
 
 .image{
@@ -47,4 +55,14 @@ a{
 	margin: 1% 25%;
 	width: 300px;
 	height: 200px;
+}
+
+#list{
+	font-size: 2em;
+	text-align: left;
+	margin:0;
+}
+
+.aLink:hover{
+	color:red;
 }

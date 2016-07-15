@@ -17,7 +17,7 @@ setInterval(move, 10);
 
 
 function colorChange(head){
-	var colors = ["red", "white", "lightgreen", "yellow", "orange"];
+	var colors = ["red", "white", "lightgreen", "yellow", "orange", "hotpink"];
 	var currColor = head.style.color;
 	var randColor = currColor;
 	while(randColor == currColor){
