@@ -140,8 +140,8 @@ h1{
 
 
 .card{
-	height: 300px;
-	width:300px;
+	min-height: 400px;
+	min-width:400px;
 	background: #672F49;
 	opacity: 0.8;
 	margin: 3%;
