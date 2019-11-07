@@ -1,0 +1,383 @@
+/*--------------General------------------*/
+body{
+	margin: 0;
+	font-family: "Open Sans", sansarif;
+}
+
+p{
+	font-size: 0.9em;
+	line-height: 1.6em;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 20px;
+	align-content: flex-start;
+}
+
+a{	
+	text-decoration: none;
+	color:inherit;
+}
+
+i:hover{
+	color:red;
+}
+
+/*---------Containers--------------*/
+.container{
+	text-align: center;
+	padding: 0.8em 1.2em;
+}
+
+.image-container{
+	background: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+.white-container{
+	background: white;
+	color: #672F49;
+}
+
+.dark-container{
+	background: #160B21;
+	color:white; 
+}
+
+
+/*----------Section---------------------*/
+.section-heading{
+	font-size: 1.6em;
+	text-transform: uppercase;
+}
+
+.section-pic{
+	border: 1px solid #672F49;
+	box-sizing: border-box;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background: url("../images/nyu-logo.png") no-repeat center; 
+	margin: auto;
+}
+
+
+/*----------Cards---------------------*/
+.card{
+	height: 200;
+	width:300px;
+	background: #672F49;
+	opacity: 0.8;
+	margin: auto;
+	padding: 20px;
+	border-style: solid;
+  	border-width: 1px;
+}
+
+.card-title{
+
+	letter-spacing: 0.1em;
+	margin-top:100px;
+	font-weight: bold;
+}
+
+.card-content{
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 190%;
+	padding: 20px;
+	padding-top: 0px;
+
+}
+
+.card:hover{
+	opacity: 1;
+}
+
+/*----------Desktop/Mobile---------------------*/
+.hide-mobile{
+	display: none;
+}
+
+/*---------Button---------------------*/
+.btn-primary{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: #160B21;
+	color:inherit;
+	opacity: 0.8;
+	margin: auto;
+	width: 150px;
+	height: 50px;
+	font-size: 1em;
+	letter-spacing: 0.16em;
+}
+
+.btn-primary:hover{
+	background: red;
+	opacity: 1;
+}
+
+/*----------Navbar---------------------*/
+
+#navbar{
+	background: #160B21;
+	color:white; 
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo{
+	font-size: 1em;
+	margin-top:5px;
+}
+
+#menu{
+	width: 25px;
+	margin-top:5px;
+}
+
+
+/*-----------------Home----------------*/
+#home{
+	height: 100vh;
+	max-height: 450px;
+}
+
+#home section{
+	position: relative;
+	top:20%;
+}
+
+#home h1{
+	font-size: 2.2em;
+	margin-bottom: 0px;
+}
+
+#home .subhead{
+	font-size:0.8em;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+#home ul{
+	margin-top: 30px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#home i{
+	font-size: 50px;
+}
+
+/*-----------------About----------------*/
+#about p{
+	text-align: justify;
+	letter-spacing: 0.1em;
+	line-height: 190%;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#about ul{
+	margin: 30px 10px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#about i{
+	font-size: 50px;
+}
+
+/*-----------------Projects----------------*/
+#projects ul{
+
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+
+}
+
+#projects ul li{
+	margin:0;
+	margin-bottom: 10%;
+
+}
+
+/*-----------------Eduction----------------*/
+#education p{
+	text-align: center;
+	letter-spacing: 0.15em;
+	line-height: 196%;
+	
+}
+
+
+/*-----------------Experience----------------*/
+#experience ul{
+
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+
+}
+
+#experience ul li{
+	margin:0;
+	margin-bottom: 10%;
+
+}
+
+/*-----------------Skills----------------*/
+#skills{
+	margin:auto;
+	margin-bottom: 20px;
+	max-width: 900px;
+}
+
+#skills .section-heading{
+	margin-bottom: 20px;
+}
+
+#skills .link-icon{
+	font-size: 50px;
+	margin:15% 10%;
+}
+
+/*-----------------Contact Me----------------*/
+#contact-me textarea{
+	padding-top: 5px;
+
+}
+
+.form{
+
+	justify-content:center;
+	align-items:center;
+	margin: auto;
+	font-size: 1em;
+	letter-spacing: 0.16em;
+}
+
+.form-field{
+	display: block;
+	margin: 20px auto;
+
+	min-height: 40px;
+	min-width: 200px; 
+	max-width: 500px; 
+	width: 100%;
+	font-size: 1em;
+	letter-spacing: 0.16em;
+	opacity: 0.8;
+}
+
+.form-field:hover{
+	opacity: 1.0;
+}
+
+.form-btn{
+	margin-bottom: 30px;
+
+}
+
+/*-----------------Footer----------------*/
+#footer{
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-top:20px; 
+
+}
+
+#footer p{
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin:auto;
+}
+
+#footer ul{
+	max-width: 100px;
+	margin:auto;
+}
+
+.footer-link-icon{
+	font-size: 20px;
+	margin:15% 10%;
+}
+
+
+/*---------@Media-----------*/
+@media (min-width:800px){
+	#home{
+		max-height: none;
+	}
+
+	#home section{
+	position: relative;
+	top:30%;
+	}
+
+	#home h1{
+		font-size: 4em;
+		margin-bottom: 0px;
+	}
+
+	#home .subhead{
+		font-size:1.4em;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
+
+	#home i{
+		font-size: 50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

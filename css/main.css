@@ -1,0 +1,148 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: white;
+	font-family: "Open Sans", sansarif;
+	line-height: 196%;
+}
+
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	max-width: 750px;
+}
+
+li{
+	list-style: none;
+	margin:auto;
+}
+
+/*-----Containers Start-----*/
+.container{
+	text-align: center;
+	padding: 0;
+	display: block;
+	margin: auto;
+	height: 100%;
+	width:100%;
+	align-content: center;
+}
+.image-container{
+	background: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	width:100vw;
+	min-height: 100vh;
+	margin: auto;
+}
+
+.white-container{
+	background: white;
+	color: #672F49;
+	min-height: 200px;
+	padding: 4% 1%;
+}
+
+.dark-container{
+	width:auto !important;
+	height:auto !important;
+}
+
+.hide-mobile{
+	display: none;
+}
+
+/*-----Containers End-----*/
+
+
+/*-----Navbar Start-----*/
+header{
+	background: #160B21;
+	color:white;
+	position: fixed;
+	padding: 2%;
+	width:100%;
+	display: flex;
+}
+
+
+
+header nav{
+	text-align: right;
+	margin: 0 0 0 auto;
+	
+}
+/*-----Navbar End-----*/
+
+
+
+/*-----Home Start-----*/
+section{
+	align-content: center;
+	text-align: center;
+	position: relative;
+	line-height: 300%;
+}
+h1{
+	margin: auto;
+	font-size: 3rem;
+	padding-top: 50vh;
+	position: relative;
+}
+
+.link-icon{
+	font-size: 3rem;
+	margin:1%;
+
+}
+.btn-primary{
+
+	width: 200px;
+	height: 80px;
+	padding: 3% 5%;
+	background: #160B21;
+
+}
+
+/*-----Home End-----*/
+
+.section-pic{
+	border: 1px solid #672F49;
+	box-sizing: border-box;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background: url("../images/nyu-logo.png") no-repeat center; 
+	margin: auto;
+}
+
+.section-content{
+	text-align: justify;
+	padding: 2% 4%;
+}
+
+
+.text-align-center{
+	text-align: center !important;
+}
+
+
+.card{
+	height: 300px;
+	width:300px;
+	background: #672F49;
+	opacity: 0.8;
+	margin: 3%;
+}
